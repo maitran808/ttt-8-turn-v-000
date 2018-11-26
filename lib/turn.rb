@@ -45,8 +45,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  if input_to_index != true
+  if input_to_index(input) != true
     puts "Please enter 1-9:"
-  else input_to_index == true
+  else input_to_index(input) == true
   end
 end
