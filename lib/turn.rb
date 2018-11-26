@@ -45,9 +45,4 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  index = 1
-  while input_to_index > 10
-    puts "Please enter 1-9:"
-  until input_to_index < 10
-  end
 end
