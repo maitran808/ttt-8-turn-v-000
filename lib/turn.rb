@@ -45,8 +45,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  if input_to_index(input) > 9
+  if input_to_index(input) > 8
     puts "Please enter 1-9:"
-  else input_to_index(input) < 9
+  else input_to_index(input) < 8
   end
 end
