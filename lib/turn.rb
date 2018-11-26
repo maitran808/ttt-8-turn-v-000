@@ -45,4 +45,9 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  if index < 10
+    def move(board, index, character = "X")
+  else index > 10
+    puts "Please enter 1-9:"
+  end
 end
