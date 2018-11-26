@@ -45,4 +45,11 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  while index > 9
+    puts "Please enter 1-9:"
+  until index.between? (0,8) == true
+  end
 end
+
+
+    
