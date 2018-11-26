@@ -50,6 +50,3 @@ def turn(board)
   until index.between? (0,8) == true
   end
 end
-
-
-    
