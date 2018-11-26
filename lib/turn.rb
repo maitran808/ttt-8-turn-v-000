@@ -45,9 +45,9 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  while index < 10
-    def move(board, index, character = "X")
-  until index > 10
+  while index > 9
+    puts "Please enter 1-9:"
+  until index < 9
     puts "Please enter 1-9:"
   end
 end
