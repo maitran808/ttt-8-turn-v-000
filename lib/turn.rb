@@ -48,6 +48,5 @@ def turn(board)
   if input_to_index(input) > 8
     puts "Please enter 1-9:"
   else valid_move?(board, index) == true
-    display_board(board)
   end
 end
