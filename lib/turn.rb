@@ -46,8 +46,10 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   input = gets
-  if input_to_index(input) > 8
+  input_to_index(input)
+  if valid_move?(board, index)!= true
     puts "Please enter 1-9:"
-  else input_to_index(input) < 8
+  else valid_move?(board, index)== true
+    display_board(board)
   end
 end
